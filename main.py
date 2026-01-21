@@ -116,6 +116,11 @@ with tab_help:
                 *If you have questions or comments, please reach out to me, [Dinesh Thogulua](https://www.linkedin.com/in/dinesh-thogulua/), 
                 on LinkedIn (Just connect with me if you can't message directly. Thanks).*
                 """)
+    st.markdown("""
+        *If you are using your phone, please rotate to landscape mode for better experience. If you don't see an empty page, the sidebar is 
+        probably hidden, click the ">>" on the top-left corner*.
+        """
+    )
     st.header("Description")
     st.markdown(
         """
