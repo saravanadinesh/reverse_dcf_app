@@ -44,7 +44,7 @@ def plot_cash_flows(op_equity_value, net_inc, roe, rir, coe, n_exog, g_steady, c
     op_equity_value = (growth_value + pv_terminal_value) / 1000  # in billions
     ratio = pv_terminal_value / growth_value if growth_value != 0 else 0
     
-    years = [f'i' for i in range(1, int(n_exog) + 6)]
+    years = [i for i in range(1, int(n_exog) + 6)]
     df = pd.DataFrame({
         'Year': years,
         'Undiscounted CF': undiscounted_cf,
